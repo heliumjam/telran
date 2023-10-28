@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.qameta.allure:allure-testng:2.14.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.qameta.allure" artifactId="allure-testng" version="2.14.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Tools/gradle-7.4/caches/modules-2/files-2.1/io.qameta.allure/allure-testng/2.14.0/ff48554e315b73d36cc153d842ef66142ddb9917/allure-testng-2.14.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Tools/gradle-7.4/caches/modules-2/files-2.1/io.qameta.allure/allure-testng/2.14.0/fe8e973a78808f7c117bd293a944a9f84ebb9a5f/allure-testng-2.14.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
