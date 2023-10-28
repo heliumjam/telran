@@ -1,0 +1,243 @@
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\n  <component name=\"GradleSettings\">\n    <option name=\"linkedExternalProjectsSettings\">\n      <GradleProjectSettings>\n        <option name=\"distributionType\" value=\"LOCAL\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"gradleHome\" value=\"$PROJECT_DIR$/../gradle-7.4\" />\n        <option name=\"modules\">\n          <set>\n            <option value=\"$PROJECT_DIR$\" />\n          </set>\n        </option>\n      </GradleProjectSettings>\n    </option>\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	
++++ b/.idea/gradle.xml	
+@@ -6,7 +6,7 @@
+       <GradleProjectSettings>
+         <option name="distributionType" value="LOCAL" />
+         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="gradleHome" value="$PROJECT_DIR$/../gradle-7.4" />
++        <option name="gradleHome" value="$USER_HOME$/Tools/gradle-7.4" />
+         <option name="modules">
+           <set>
+             <option value="$PROJECT_DIR$" />
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4ece7d0c-0b42-40a2-b284-9b35eba87d3b\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/../Drops_test/test_1.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../Drops_test/test_elc.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/Configurations/config.ini\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/pageObjects/__init__.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/pageObjects/login_page.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/pageObjects/restore_passwd_page.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/requirements.txt\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/setup.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/testCases/__init__.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/testCases/conftest.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/testCases/pytest.ini\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/utilities/__init__.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/utilities/customlogger.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../automation_explorer/utilities/read_properities.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../drops/infra/__init__.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../drops/infra/config_qa.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../drops/infra/customers.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../drops/tests/test_1.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../pySpark_local/test.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../pyspark_docker/Dockerfile\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../spark/infra/__init__.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../spark/infra/drop.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../spark/main.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../spark/test_1.py\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/../spark/test_degradation_report.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/gradle.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/gradle.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/build.gradle\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/build.gradle\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/TestBinarySearch.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/TestBinarySearch.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/testing.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/testing.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"test_telran\" type=\"f1a62948:ProjectNode\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2WnvoV9Z3ry7Paa6ZAJJXX8CQkX\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;binarysearch&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;onboarding.tips.debug.path&quot;: &quot;/home/olegsher/workspace/test_telran/src/main/java/org/example/Main.java&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"Gradle.TestBinarySearch\">\n    <configuration name=\"TestBinarySearch\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;TestBinarySearch&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <ForceTestExec>true</ForceTestExec>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"TestBinarySearch.testArr1000Func\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;TestBinarySearch.testArr1000Func&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <ForceTestExec>true</ForceTestExec>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"TestBinarySearch.testArr1000Perf\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;TestBinarySearch.testArr1000Perf&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <ForceTestExec>true</ForceTestExec>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"TestBinarySearch.testMethod1\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;TestBinarySearch.testMethod1&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <ForceTestExec>true</ForceTestExec>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"TestBinarySearch.test_arr_1000\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;TestBinarySearch.test_arr_1000&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <ForceTestExec>true</ForceTestExec>\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Gradle.TestBinarySearch\" />\n        <item itemvalue=\"Gradle.TestBinarySearch.testArr1000Perf\" />\n        <item itemvalue=\"Gradle.TestBinarySearch.testArr1000Func\" />\n        <item itemvalue=\"Gradle.TestBinarySearch.test_arr_1000\" />\n        <item itemvalue=\"Gradle.TestBinarySearch.testMethod1\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4ece7d0c-0b42-40a2-b284-9b35eba87d3b\" name=\"Changes\" comment=\"\" />\n      <created>1697381335692</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1697381335692</updated>\n      <workItem from=\"1697381337189\" duration=\"10315000\" />\n      <workItem from=\"1697443564739\" duration=\"1206000\" />\n      <workItem from=\"1697452587638\" duration=\"3484000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>\n          <line>15</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,39 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="4ece7d0c-0b42-40a2-b284-9b35eba87d3b" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/../Drops_test/test_1.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../Drops_test/test_elc.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/Configurations/config.ini" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/pageObjects/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/pageObjects/login_page.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/pageObjects/restore_passwd_page.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/requirements.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/setup.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/testCases/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/testCases/conftest.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/testCases/pytest.ini" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/utilities/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/utilities/customlogger.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../automation_explorer/utilities/read_properities.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../drops/infra/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../drops/infra/config_qa.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../drops/infra/customers.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../drops/tests/test_1.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../pySpark_local/test.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../pyspark_docker/Dockerfile" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../spark/infra/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../spark/infra/drop.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../spark/main.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../spark/test_1.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/../spark/test_degradation_report.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BinarySearch.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBinarySearch.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/testing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="4ece7d0c-0b42-40a2-b284-9b35eba87d3b" name="Changes" comment="first" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -55,12 +23,7 @@
+         </task>
+         <projects_view>
+           <tree_state>
+-            <expand>
+-              <path>
+-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+-                <item name="test_telran" type="f1a62948:ProjectNode" />
+-              </path>
+-            </expand>
++            <expand />
+             <select />
+           </tree_state>
+         </projects_view>
+@@ -76,6 +39,9 @@
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="2WnvoV9Z3ry7Paa6ZAJJXX8CQkX" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+@@ -83,26 +49,40 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;binarysearch&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/olegsher/workspace/test_telran/src/main/java/org/example/Main.java&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "git-widget-placeholder": "binarysearch",
++    "last_opened_file_path": "/home/miri/Tools/gradle-7.4",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "onboarding.tips.debug.path": "/home/olegsher/workspace/test_telran/src/main/java/org/example/Main.java",
++    "project.structure.last.edited": "Problems",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2",
++    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager" selected="Gradle.TestBinarySearch">
++    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.BinarySearch" />
++      <module name="test_telran.main" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="TestBinarySearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+         <option name="executionName" />
+@@ -124,7 +104,7 @@
+       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+       <DebugAllEnabled>false</DebugAllEnabled>
+-      <ForceTestExec>true</ForceTestExec>
++      <RunAsTest>true</RunAsTest>
+       <method v="2" />
+     </configuration>
+     <configuration name="TestBinarySearch.testArr1000Func" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+@@ -148,7 +128,7 @@
+       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+       <DebugAllEnabled>false</DebugAllEnabled>
+-      <ForceTestExec>true</ForceTestExec>
++      <RunAsTest>true</RunAsTest>
+       <method v="2" />
+     </configuration>
+     <configuration name="TestBinarySearch.testArr1000Perf" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+@@ -172,31 +152,7 @@
+       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+       <DebugAllEnabled>false</DebugAllEnabled>
+-      <ForceTestExec>true</ForceTestExec>
+-      <method v="2" />
+-    </configuration>
+-    <configuration name="TestBinarySearch.testMethod1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+-      <ExternalSystemSettings>
+-        <option name="executionName" />
+-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-        <option name="externalSystemIdString" value="GRADLE" />
+-        <option name="scriptParameters" value="" />
+-        <option name="taskDescriptions">
+-          <list />
+-        </option>
+-        <option name="taskNames">
+-          <list>
+-            <option value=":test" />
+-            <option value="--tests" />
+-            <option value="&quot;TestBinarySearch.testMethod1&quot;" />
+-          </list>
+-        </option>
+-        <option name="vmOptions" />
+-      </ExternalSystemSettings>
+-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+-      <DebugAllEnabled>false</DebugAllEnabled>
+-      <ForceTestExec>true</ForceTestExec>
++      <RunAsTest>true</RunAsTest>
+       <method v="2" />
+     </configuration>
+     <configuration name="TestBinarySearch.test_arr_1000" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+@@ -220,16 +176,29 @@
+       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+       <DebugAllEnabled>false</DebugAllEnabled>
+-      <ForceTestExec>true</ForceTestExec>
++      <RunAsTest>true</RunAsTest>
+       <method v="2" />
+     </configuration>
++    <configuration default="true" type="JetRunConfigurationType">
++      <module name="telran" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++      <module name="telran" />
++      <option name="filePath" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.BinarySearch" />
+         <item itemvalue="Gradle.TestBinarySearch" />
+         <item itemvalue="Gradle.TestBinarySearch.testArr1000Perf" />
+         <item itemvalue="Gradle.TestBinarySearch.testArr1000Func" />
+         <item itemvalue="Gradle.TestBinarySearch.test_arr_1000" />
+-        <item itemvalue="Gradle.TestBinarySearch.testMethod1" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -260,6 +229,10 @@
+         </entry>
+       </map>
+     </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="first" />
++    <option name="LAST_COMMIT_MESSAGE" value="first" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>

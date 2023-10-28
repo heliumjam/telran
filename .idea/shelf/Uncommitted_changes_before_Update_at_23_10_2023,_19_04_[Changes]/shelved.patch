@@ -1,0 +1,14 @@
+Index: LoginTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class LoginTests {\n};\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LoginTests.java b/LoginTests.java
+--- a/LoginTests.java	(revision 681426644d74acebf30a0dc75d9f9208a54df8ff)
++++ b/LoginTests.java	(date 1698077019366)
+@@ -1,2 +1,3 @@
+ public class LoginTests {
++
+ };
