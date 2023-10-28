@@ -1,13 +1,13 @@
 package org.example;
 // Java implementation of iterative Binary Search
 
-import java.io.*;
 
 public class BinarySearch {
 
 	// Returns index of x if it is present in arr[].
 	public int binarySearch(int[] arr, int x)
 	{
+		
 		int l = 0, r = arr.length - 1;
 		while (l <= r) {
 			int m = l + (r - l) / 2;
@@ -35,7 +35,6 @@ public class BinarySearch {
 	{
 		BinarySearch ob = new BinarySearch();
 		int[] arr = { 2, 3, 4, 10, 40 };
-//		int n = arr.length;
 		int x = 10;
 		int result = ob.binarySearch(arr, x);
 		if (result == -1)
